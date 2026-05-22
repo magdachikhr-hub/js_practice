@@ -53,3 +53,8 @@ console.log(thirdArr);
 for (const number of thirdArr) {
   console.log(number);
 }
+
+//3.3 another way of doing it
+
+const newArr = prices.filter((a) => a < 100);
+console.log(newArr);
